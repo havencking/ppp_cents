@@ -1,5 +1,5 @@
-#N canvas 2 71 734 300 10;
-#N canvas 451 79 735 457 ppp_cents 0;
+#N canvas 2 70 734 300 16;
+#N canvas 449 77 735 457 ppp_cents 0;
 #X obj 55 60 notein;
 #X obj 151 56 bendin;
 #X obj 151 82 - 8192;
@@ -57,5 +57,5 @@
 #X connect 24 0 5 0;
 #X connect 25 0 27 0;
 #X connect 27 0 22 1;
-#X coords 0 -1 1 1 440 100 2 0 300;
+#X coords 0 -1 1 1 460 100 2 0 300;
 #X restore 77 76 pd ppp_cents;
