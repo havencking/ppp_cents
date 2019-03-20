@@ -1,4 +1,4 @@
-#N canvas 2 70 734 300 16;
+#N canvas 382 136 734 300 16;
 #N canvas 449 77 735 457 ppp_cents 0;
 #X obj 55 60 notein;
 #X obj 151 56 bendin;
@@ -33,6 +33,7 @@
 #X text 421 314 12;
 #X obj 228 192 + 1;
 #X text 261 314 1;
+#X obj 445 205 loadbang;
 #X connect 0 0 24 0;
 #X connect 0 1 24 1;
 #X connect 1 0 2 0;
@@ -57,5 +58,6 @@
 #X connect 24 0 5 0;
 #X connect 25 0 27 0;
 #X connect 27 0 22 1;
+#X connect 29 0 25 0;
 #X coords 0 -1 1 1 460 100 2 0 300;
 #X restore 77 76 pd ppp_cents;
